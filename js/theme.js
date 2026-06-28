@@ -2,9 +2,8 @@ const themeButton = document.querySelector("header_theme");
 
 const THEME_KEY = "kinoposite_theme";
 
-const saveTheme = localStorage.getItem(THEME_KEY);
+const savedTheme = localStorage.getItem(THEME_KEY);
 
-let savedTheme = 'light';
 if(savedTheme === "dark"){
     document.body.classList.add("dark-theme");
 }
